@@ -47,7 +47,7 @@ __Special skills:__
 
 * Native Russian;
 
-* English – Pre-intermediate;
+* English – Pre-intermediate (A2/B1);
 
 * Computer literacy:
 	* Microsoft Word
