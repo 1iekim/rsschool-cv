@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV-Mikeil Akovity</title>
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <h1 class="creat">CV: 17.Jul.2021</h1>
+        </header>
+        
+        <div class="prev">
+            <div class="user_data">
+                <div class="name"><h1>Mikeil Akovity</h1></div>
+                <div class="contact">
+                    <div class="phone">
+                        <b>Phone number: </b> <a href="tel:+375292260257">+375 (29) 226-02-57</a>
+                    </div>
+                    <div class="mail">
+                        <b>Email:</b> <a href="mailto:mikeil.akovity@gmail.com">mikeil.akovity@gmail.com</a>
+                    </div>
+                    <div class="pers_data">
+                        <p><b>Date of Birth:</b> 11.Aug.1998</p>
+                        <p><b>Nationality:</b> Belarusian</p>
+                        <p><b>Marital Status:</b> Single</p>
+                        <p><b>Education:</b> Belarusian State University, Radiophysics department, <br>
+                           Bachelor’s degree in Radiophysics (2015 - 2019)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="avatar"><img src="./images/avatar.png" alt="my avatar" class="img_avatar"></div>
+            <!--<div class="avatar"></div>-->
+        </div>
+
+        <div class="data">
+            <div class="ather">
+                <div class="work">
+                    <p><b>Work experience:</b></p>
+                    <ol>
+                        <li>Integral – 01.02.2021 – present <br> Minsk, Belarus</li>
+                        <li>Military service – 26.11.2019 – 25.11.2020 <br>Grodno, Belarus</li>
+                        <li>Integral – 05.08.2019 – 16.11.2019 <br> Minsk, Belarus</li>
+                    </ol>
+                </div>
+                <div class="person_qual">
+                    <p><b>Personal qualities:</b></p>
+                    <ul>
+                        <li>Initiative</li>
+                        <li>Dependable</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills">
+                <p><b>Special skills:</b></p>
+                <ul>
+                    <li>Native Russian;</li>
+                    <li>English – Pre-intermediate (A2/B1);</li>
+                    <li>Computer literacy:
+                        <ul>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>Visual Studio Code</li>
+                            <li>OriginLab</li>
+                            <li>Matlab</li>
+                            <li>Mathematica</li>
+                        </ul>
+                    </li>
+                    <li>Programming:
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="code">
+            <div class="code_text"><p><b>Code exemple:</b> typical arrays problems:</p></div>
+            <div class="code_code">
+                <code>
+                    <span>
+                        <p>exports.min = function min (array) { </p>
+                            <p class="abth">if (typeof array === ‘undefined’ || array.length == 0) return 0; </p>
+                            <p class="abth">else { </p>
+                            <p class="abth">let minVal = array[0]; </p>
+                            <p class="abth">for (let i = 1; i < array.length; i++) {if (array[i] < minVal) minVal = array[i]} </p>
+                            <p class="abth">return minVal} </p><p>}</p></span></code>
+                <code>
+                    <span>
+                        <p>exports.max = function max (array) {</p>
+                        <p class="abth">if (typeof array === 'undefined' || array.length == 0) return 0;</p>
+                        <p class="abth">else {</p>
+                        <p class="abth">let maxVal = array[0];</p>
+                        <p class="abth">for (let i = 1; i < array.length; i++) {if (array[i] > maxVal) maxVal = array[i]}</p>
+                        <p class="abth">return maxVal}</p> <p>}</p>  </span>
+                </code>
+                <code>
+                    <span>
+                        <p>exports.avg = function avg (array) {</p>
+                        <p class="abth">if (typeof array === 'undefined' || array.length == 0) return 0;</p>
+                        <p class="abth">else {</p>
+                        <p class="abth">let avgVal = 0;</p>
+                        <p class="abth">for (let i = 0; i < array.length; i++) {avgVal += array[i]}</p> 
+                        <p class="abth">return avgVal/array.length}</p><p>}</p></span>
+                </code>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="rss"><a href="https://rs.school/" target="_blank"><img src="./images/rs_school_js.svg" alt="Rs-school" class="img-rss"></a></div>
+            <div class="text_foot">
+                <p><a href="tel:+375292260257" class="phone">+375 (29) 226-02-57</a></p>
+                <p><a href="mailto:mikeil.akovity@gmail.com" class="mail">mikeil.akovity@gmail.com</a></p>
+                <p>created: 17.Jul.21</p>
+            </div>
+            <div class="img-foot">
+                <a href="https://github.com/1iekim" target="_blank"><img src="./images/github.png" alt="github" class="img-git"></a>
+                <a href="https://t.me/Mikeil_liekiM" target="_blank"><img src="./images/telegram.png" alt="telegram" class="img-telegram"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
