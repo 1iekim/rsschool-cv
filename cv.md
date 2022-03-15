@@ -54,8 +54,6 @@ __Special skills:__
 	* Microsoft Excel
 	* Visual Studio Code
 	* OriginLab
-	* Matlab
-	* Mathematica
 	* AutoCAD
 
 * Programming:
@@ -63,6 +61,7 @@ __Special skills:__
 	* C++
 	* CSS
 	* HTML
+	
 __Code:__
 * Typical arrays problems:
 	> function min (array) {  
