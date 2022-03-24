@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikhail Akavity</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sarina&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="#">Contacts</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Education</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Experience</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Skills</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Code</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Projects</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Certificate</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <div class="container">
+      <section class="section name">
+        <div class="name__content">
+          <span class="name__hi">Hi! I’m</span>
+          <h1 class="name__name">Mikhail Akavity</h1>
+        </div>
+        <div class="name__avatar">
+          <img class="avatar" src="./assets/avatar.jpg" alt="Avatar">
+        </div>
+      </section>
+
+      <section class="section contacts">
+        <h2 class="section__title">Contacts:</h2>
+        <div class="section__content contacts__content">
+          <ul class="contacts__list">
+            <li class="contacts__item">Minsk, Belarus</li>
+            <li class="contacts__item">Tel: <a class="contacts__link" href="tel:+375292260257">+375(29) 226-02-57</a> </li>
+            <li class="contacts__item">Email: <a class="contacts__link" href="mailto:mikeil.akovity@gmail.com">mikeil.akovity@gmail.com</a> </li>
+            <li class="contacts__item">Git: <a class="contacts__link" href="https://github.com/1iekim">1iekim</a></li>
+            <li class="contacts__item">Discord: <span class="contacts__link">Mikeil#1250</span> </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section education">
+        <h2 class="section__title">Education:</h2>
+        <div class="section__content education__content">
+          Belarusian State University, Radiophysics department, 
+          Bachelor's degree in Radiophysics (2015-2019)
+        </div>
+      </section>
+
+      <section class="section experience">
+        <h2 class="section__title">Experience:</h2>
+        <div class="section__content experience__content">
+          <p>
+            <span class="work-place">INTEGRAL:</span>
+            <span class="work">Engineer</span>
+            <span class="work-time">aug.2019-nov.2019</span>
+          </p>
+          <p>
+            <span class="work-place">Army:</span>
+            <span class="work-time">nov.2019-nov.2020</span>
+          </p>
+          <p>
+            <span class="work-place">INTEGRAL:</span>
+            <span class="work">Engineer</span>
+            <span class="work-time">feb.2021-Now</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="section skills">
+        <h2 class="section__title">Skills:</h2>
+        <div class="section__content skills__content">
+          <ul class="skills__list">
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Figma</li>
+            <li class="skills__item">CorelDRAW</li>
+            <li class="skills__item">AutoCAD</li>
+            <li class="skills__item">Languages:
+              <ul class="skills__item-lang">Native Russian</ul>
+              <ul class="skills__item-lang">English - A2/B1 (Pre-intermediate)</ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section code">
+        <h2 class="section__title">Code:</h2>
+        <div class="section__content code__content">
+          <pre>
+<code>function createSecretHolder(secret) { 
+  return {
+    secret: secret,
+    getSecret() {return this.secret},
+    setSecret(n) {this.secret = n}
+  }
+}</code>
+          </pre>
+        </div>
+      </section>
+
+      <section class="section projects">
+        <h2 class="section__title">Projects:</h2>
+        <div class="section__content projects__content">
+          <a class="projects__item" href="#">
+            <img class="projects__img" src="./assets/project_eco_big.png" alt="Eco sounds">
+            <h3 class="projects__title">Eco sounds</h3>
+          </a>
+          <a class="projects__item" href="#">
+            <img class="projects__img" src="./assets/project_portfolio_big.png" alt="Portfolio">
+            <h3 class="projects__title">Portfolio</h3>
+          </a>
+          <a class="projects__item" href="#">
+            <img class="projects__img" src="./assets/project_tic_big.png" alt="Tic Tac Toe">
+            <h3 class="projects__title">Tic Tac Toe</h3>
+          </a>
+          <a class="projects__item" href="#">
+            <img class="projects__img" src="./assets/project_gallery_big.png" alt="Image gallery">
+            <h3 class="projects__title">Image gallery</h3>
+          </a>
+        </div>
+      </section>
+
+      <section class="section certificate">
+        <h2 class="section__title">Certificate:</h2>
+        <div class="section__content certificate__content">
+          <a class="certificate__link" href="">
+            <img class="certificate__img" src="./assets/certificate.png" alt="Certificate">
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__content">
+        <span>&copy;</span>
+        <span>2022</span>
+        <a class="git-link" href="https://github.com/1iekim">github</a>
+      </div>
+      <div class="footer__img">
+        <a class="footer__img-link" href="https://rs.school/js/"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
